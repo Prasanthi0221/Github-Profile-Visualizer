@@ -15,7 +15,7 @@ const Piechart = props => {
   const data = lezend.pieLanguages
 
   return (
-    <ResponsiveContainer width="80%" height={300}>
+    <ResponsiveContainer width={800} height={200}>
       <PieChart>
         <Pie
           cx="50%"

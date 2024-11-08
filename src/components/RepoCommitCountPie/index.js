@@ -15,7 +15,7 @@ const RepoCommitCountPie = props => {
   const data = repoCommitCount
 
   return (
-    <ResponsiveContainer width="120%" height={200}>
+    <ResponsiveContainer width={800} height={200}>
       <PieChart>
         <Pie
           cx="50%"

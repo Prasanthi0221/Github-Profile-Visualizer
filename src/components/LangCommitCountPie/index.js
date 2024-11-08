@@ -15,7 +15,7 @@ const LanguageCommitCountPie = props => {
   const data = langCommitCount
 
   return (
-    <ResponsiveContainer width="100%" height={200}>
+    <ResponsiveContainer width={800} height={200}>
       <PieChart>
         <Pie
           cx="50%"
